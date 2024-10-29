@@ -8,3 +8,8 @@
 // Importa la tua funzione da names.js
 // Importa la tua funzione da hobbies.js
 // Crea una funzione che non ha parametri. La funzione dovrebbe restituire un oggetto con tre proprietà: firstName, lastName, hobbies.
+
+// funzione per nome completo
+const username = require('./names');
+
+console.log(username('Giulia', 'Ciampelli'));
