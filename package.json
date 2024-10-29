@@ -1,0 +1,12 @@
+{
+  "name": "commonjs-modules",
+  "version": "0.0.1",
+  "main": "people.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node people.js"
+  },
+  "author": "Giulia",
+  "license": "ISC",
+  "description": ""
+}
