@@ -13,3 +13,8 @@
 const username = require('./names');
 
 console.log(username('Giulia', 'Ciampelli'));
+
+// funzione per array di hobby
+const hobbies = require('./hobbies');
+
+console.log(hobbies('danza', 'gong fu', 'gaming'));
