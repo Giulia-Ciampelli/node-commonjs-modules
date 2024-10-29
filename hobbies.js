@@ -1,4 +1,5 @@
-function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
+// nome funzione scritto in minuscolo per presentazione nel terminal: ritorna tre hobby
+function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
     const hobbies = [
         hobbyOne,
         hobbyTwo,
@@ -8,4 +9,4 @@ function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     return hobbies;
 }
 
-module.exports = getHobbies;
+module.exports = hobbies;

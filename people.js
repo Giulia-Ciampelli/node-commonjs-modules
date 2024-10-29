@@ -18,3 +18,12 @@ console.log(username('Giulia', 'Ciampelli'));
 const hobbies = require('./hobbies');
 
 console.log(hobbies('danza', 'gong fu', 'gaming'));
+
+function getDescription() {
+    return {
+        fullname: username('Giulia', 'Ciampelli'),
+        hobbies: hobbies('danza', 'gong fu', 'gaming')
+    }
+}
+
+console.log(getDescription());
